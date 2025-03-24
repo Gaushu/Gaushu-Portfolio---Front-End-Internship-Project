@@ -2,8 +2,8 @@ import { useEffect } from "react";
 import me from "../assets/aboutme.jpg";
 import educIcon from "../assets/educ.png";
 import educWhiteIcon from "../assets/educwhite.png";
-import forteIcon from "../assets/interest.png";
-import forteWhiteIcon from "../assets/interestwhite.png";
+import forteIcon from "../assets/Interest.png";
+import forteWhiteIcon from "../assets/Interest.png";
 import Header from "../components/Header";
 
 interface AboutProps {
