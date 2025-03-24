@@ -51,7 +51,7 @@ const Background: React.FC<BackgroundProps> = ({ darkMode }) => {
     {Backgrounds.map((exp, index) => (
       <aside
         key={index}
-        className={`relative border-2 py-4 px-5 xl:p-4 rounded-3xl w-[300px] xl:w-[500px] font-mono backdrop-blur-md shadow-lg animate-float
+        className={`relative border-2 py-4 px-5 xl:p-4 rounded-3xl w-[320px] xl:w-[500px] font-mono backdrop-blur-md shadow-lg animate-float
           ${darkMode ? 'border-white bg-[#1d1d1d] text-white shadow-white/20' : 'border-black bg-white text-black shadow-black/20'}`}
       >
         <div className="absolute top-2 left-2">
