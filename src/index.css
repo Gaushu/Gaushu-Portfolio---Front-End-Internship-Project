@@ -11,7 +11,7 @@ body {
   
   .slider {
     width: 100%;
-    height: 25rem; /* Adjust as needed */
+    height: 25rem; 
     overflow: hidden;
     mask-image: linear-gradient(to right, transparent, #000 10% 90%, transparent);
     padding: 2rem 0; /* Added padding to prevent hover cutoff */

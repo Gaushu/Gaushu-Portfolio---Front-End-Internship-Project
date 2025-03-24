@@ -22,10 +22,10 @@ const About: React.FC<AboutProps> = ({ darkMode }) => {
   }, [darkMode]);
 
   return (
-    <div className="flex flex-col items-center text-center justify-center h-screen w-full">
+    <div className="flex flex-col items-center text-center justify-center min-h-[calc(80vh-90px)] w-full !overflow-hidden">
       <Header darkMode={darkMode} title="Get to know more" subtitle="About Me" />
 
-      <div className="relative top-[9em] sm:top-[9em] md:top-[-4em] lg:top-[-4em] xl:top-[-3em] 2xl:top-[-7em] flex flex-col md:flex-row items-center justify-center w-full mt-0 gap-10 p-4 xl:p-0 xl:mb-0">
+      <div className="relative top-[0] sm:top-[1em] md:top-[1em] lg:top-[1em] xl:top-[1em] 2xl:top-[0] flex flex-col md:flex-row items-center justify-center w-full mt-0 gap-10 p-4 xl:p-0 xl:mb-0">
         <div
           className={`relative w-[240px] w-[240px] md:w-[500px] md:h-[340px] lg:w-[500px] lg:h-[380px] xl:w-[340px] xl:h-[380px] border-[2px] rounded-3xl flex justify-center items-center ${
             darkMode

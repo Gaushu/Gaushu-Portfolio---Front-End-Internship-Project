@@ -41,13 +41,13 @@ const Background: React.FC<BackgroundProps> = ({ darkMode }) => {
 
   return (
     <div
-  className={`flex flex-col items-center text-center !overflow-hidden justify-center min-h-full w-full ${
+  className={`flex flex-col items-center text-center !overflow-hidden justify-center min-h-[calc(80vh-90px)] w-full ${
     darkMode ? "bg-[#1d1d1d]" : "bg-white"
   }`}
 >
   <Header darkMode={darkMode} title="My Career" subtitle="Background" />
 
-  <div className="flex items-start justify-center flex-wrap gap-4 xl:gap-8 w-full mt-8 lg:mt-10 xl:mt-10 2xl:mt-10">
+  <div className="flex items-start justify-center pb-[2em] flex-wrap gap-4 xl:gap-8 w-full mt-8 lg:mt-10 xl:mt-10 2xl:mt-[0]">
     {Backgrounds.map((exp, index) => (
       <aside
         key={index}
