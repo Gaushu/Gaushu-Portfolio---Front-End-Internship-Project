@@ -14,7 +14,6 @@ body {
     height: 25rem; /* Adjust as needed */
     overflow: hidden;
     mask-image: linear-gradient(to right, transparent, #000 10% 90%, transparent);
-    margin-top: 5rem;
     padding: 2rem 0; /* Added padding to prevent hover cutoff */
   }
   

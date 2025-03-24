@@ -28,7 +28,7 @@ const Experience = ({ darkMode }: { darkMode: boolean }) => {
     >
       <Header darkMode={darkMode} title="Explore My" subtitle="Experience" />
       <div className="relative w-full overflow-hidden group">
-        <div className="slider">
+        <div className="slider 2xl:mt-[5rem]">
           <div className="list flex gap-4">
             {[...ExperiencedData, ...ExperiencedData].map((experience, index) => (
               <div
