@@ -10,8 +10,8 @@ const Home: React.FC<HomeProps> = ({ darkMode }) => {
   const navigate = useNavigate();
 
   return (
-    <div className="flex flex-col lg:flex-row items-center justify-center !overflow-hidden min-h-[calc(85vh-90px)] px-4 md:px-16 lg:px-0 xl:px-0">
-      <div className="flex flex-col md:flex-row lg:flex-row xl:flex-row !overflow-hidden items-center justify-center w-full max-w-screen-lg">
+    <div className="flex flex-col lg:flex-row items-center justify-center  min-h-[calc(85vh-90px)] px-4 md:px-16 lg:px-0 xl:px-0">
+      <div className="flex flex-col md:flex-row lg:flex-row xl:flex-row items-center justify-center w-full max-w-screen-lg">
         <div className="flex-1 flex justify-center pt-4">
           <img
             src={profileImage}
