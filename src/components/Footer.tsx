@@ -6,7 +6,7 @@
   const Footer: React.FC<FooterProps> = ({ darkMode }) => {
     return (
       <footer
-        className={`fixed bottom-0 left-0 w-full text-center py-3 
+        className={`sticky bottom-0 left-0 w-full text-center py-3 
           ${darkMode ? 'bg-black-200 text-white' : 'bg-white text-black'}`}
       >
         <p className="text-[8px] sm:text-[9px] md:text-[10px] lg:text-[11px] xl:text-[11px]">
