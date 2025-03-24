@@ -26,7 +26,7 @@ const Navbar: React.FC<NavbarProps> = ({ darkMode, onThemeChange }) => {
   }, []);
 
   return (
-    <div className={`fixed flex justify-between items-center w-full px-[3%] lg:px-[2%] xl:px-[2%] 2xl:px-[13%] py-[15px] pt-[90px] ${darkMode ? 'bg-black-200' : 'bg-white'}`}>
+    <div className={`flex justify-between items-center w-full px-[3%] lg:px-[2%] xl:px-[2%] 2xl:px-[13%] py-[15px] pt-[90px] ${darkMode ? 'bg-black-200' : 'bg-white'}`}>
       <h3 className={`text-${darkMode ? 'white' : 'black'} transition-all ease-in-out duration-300 font-bold text-4xl lg:mr-[6em] xl:mr-[8em] 2xl:mr-[10em]`}>PORTFOLIO</h3>
 
       <button 
