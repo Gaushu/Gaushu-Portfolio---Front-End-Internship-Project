@@ -47,7 +47,7 @@ const Background: React.FC<BackgroundProps> = ({ darkMode }) => {
 >
   <Header darkMode={darkMode} title="My Career" subtitle="Background" />
 
-  <div className="flex items-start justify-center flex-wrap gap-4 xl:gap-8 w-full mt-8 lg:mt-10 xl:mt-10 2xl:mt-10">
+  <div className="flex items-start justify-center overflow-hidden flex-wrap gap-4 xl:gap-8 w-full mt-8 lg:mt-10 xl:mt-10 2xl:mt-10">
     {Backgrounds.map((exp, index) => (
       <aside
         key={index}
