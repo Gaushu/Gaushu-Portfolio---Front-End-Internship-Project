@@ -36,7 +36,7 @@ const AppContent = () => {
     {!isResumePage && <Navbar darkMode={darkMode} onThemeChange={handleThemeChange} />}
   
     {/* Scrollable main content */}
-    <main className={`flex-grow overflow-hidden ${isResumePage ? "pt-16" : ""}`}>
+    <main className={`flex-grow overflow-y-auto ${isResumePage ? "pt-16" : ""}`}>
       <Routes>
         <Route path="/" element={<Home darkMode={darkMode} />} />
         <Route path="/Background" element={<Background darkMode={darkMode} />} />

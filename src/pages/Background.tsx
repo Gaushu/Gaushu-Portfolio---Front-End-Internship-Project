@@ -41,7 +41,7 @@ const Background: React.FC<BackgroundProps> = ({ darkMode }) => {
 
   return (
     <div
-  className={`flex flex-col items-center text-center !overflow-hidden justify-center min-h-[calc(70vh-80px)] w-full ${
+  className={`flex flex-col items-center text-center !overflow-hidden justify-center min-h-full w-full ${
     darkMode ? "bg-[#1d1d1d]" : "bg-white"
   }`}
 >
