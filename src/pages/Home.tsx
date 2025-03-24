@@ -1,3 +1,4 @@
+import profileImage from "../assets/me.jpg";
 
 import { useNavigate } from "react-router-dom";
 
@@ -13,7 +14,7 @@ const Home: React.FC<HomeProps> = ({ darkMode }) => {
       <div className="flex flex-col md:flex-row lg:flex-row xl:flex-row items-center justify-center w-full max-w-screen-lg">
         <div className="flex-1 flex justify-center pt-4">
           <img
-            src="./src/assets/me.jpg"
+            src={profileImage}
             alt="Profile"
             className={`w-[230px] h-[230px] md:w-[350px] md:h-[350px] lg:w-[450px] lg:h-[450px] xl:w-[450px] xl:h-[450px] object-cover rounded-full 
               ${darkMode ? "shadow-[0_0_10px_3px_rgba(255,255,255,0.2)] white" 
